@@ -41,7 +41,7 @@ if uploaded_file is not None:
             df.set_index('indice', drop=True, inplace=True)
 
         st.write('<div style="text-align:center"><h3>Contenuto File CSV</h3></div>', unsafe_allow_html=True)
-        st.table(df)
+        st.dataframe(df)
         
         st.divider()
 

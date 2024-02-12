@@ -8,7 +8,7 @@ import json
 all_text = ""
 
 # page style
-st.markdown('<div style="text-align:center"><h3>File Reader (csv, txt, json)</h3></div>', unsafe_allow_html=True)
+st.markdown('<div style="text-align:center"><h1>File Reader (csv, txt, json)</h1></div>', unsafe_allow_html=True)
 
 # style CSS
 st.markdown(
